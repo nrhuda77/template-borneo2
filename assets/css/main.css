@@ -1007,6 +1007,11 @@ section,
   font-size: 15px;
 }
 
+p #p {
+  font-size: 1px !important;
+}
+
+
 @media (min-width: 769px) {
   .services .content [class^=col-]:nth-child(4n+4) .service-item {
     border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
